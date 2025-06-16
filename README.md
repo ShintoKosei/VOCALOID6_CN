@@ -1,33 +1,32 @@
-# VOCALOID6_CN
-zh-CN Translation for VOCALOID 6 (ALL Version)
-感谢UlyssesWu大佬开发的UniTranslator
-仅支持 Windows
+# VOCALOID6 CN
+
+zh_CN Translation for VOCALOID 6
 
 ## 编辑器版本号
-VOCALOID 6.3.2
+
+VOCALOID **6.5** !!
+非完美版汉化，基于6.3.5文本汉化，但至少不会崩溃了。
 
 ## 如何使用
-直接下载汉化后的两个dll文件，复制到编辑器目录下覆盖就行了。
 
-如果有更新，可使用下面的方法。
+- 请先备份`/zh-Hans`、`VOCALOID6.dll`、`VOCALOID6Plugin.dll`。
+- 在[Release](https://github.com/ShintoKosei/VOCALOID6_CN/releases)下载汉化包
+- 解压放入进编辑器根目录，默认为`C:\Program Files\VOCALOID6\Editor`
 
-使用 [UniTranslator](https://github.com/UlyssesWu/BAML-Translator/releases) 打开 `VOCALOID6.exe` 或 `VOCALOID6.dll` 
+## 更新方法
 
-并导入以下其中一个汉化结果，之后处理程序集并保存即可，但在导入前请先在 **选项 -->取消勾选`翻译 BAML`和`翻译硬编码文本`，后勾选`翻译资源文本`，之后在类型中输入 `Resource` 过滤** ：
-
-## 汉化艰辛之路
-起初看到了[cevio中文化的项目](https://github.com/VOICeVIO/CeVIO.CN)，然后觉得有点意思，但我从未学过编程语言，所以这对我非常的困难。
-
-然后才发现有[vocaloid5中文化的项目](https://github.com/LiarOnce/VOCALOID5-CN)，他用的是UniTranslator，我试了一下，
-
-起初软件有些问题，导入我之前用[ResX Resource Manager](https://github.com/tom-englert/ResXResourceManager)汉化文件，多出来很多乱码，我以为这是bug，然后才知道我使用的wps的问题，换excel就好了。
+- 使用 [UniTranslator](https://github.com/UlyssesWu/BAML-Translator/releases) 打开 `VOCALOID6.dll` 和 `VOCALOID6Plugin.dll`
+- 选项里面可以切换为中文
+- 导入前请先在 **选项 --> 取消勾选`翻译 BAML`和`翻译硬编码文本`，勾选`翻译资源文本`，之后在类型中输入 `Resource` 过滤** ：
+- 菜单栏选择**文本**-**保存/读取**，进行修改操作，请用UTF8编码
+- 导入对应dll的CSV文件，之后选择**处理程序集**并保存即可
 
 ## 如何贡献
-原版和汉化的csv我都有提供，可以自行选择手动汉化。
 
-打开任意支持编辑 CSV 的编辑器。
+原版和汉化的CSV都有提供，可以自行选择手动汉化。根目录/zh-Hans里面也有官方中文，提取出来也可以用，但是乱序的对不上那两个dll，一个个对太麻烦了先搁置吧..
+用Excel或者其他代码编辑器编辑 CSV，注意格式。
+欢迎贡献。
 
-## FAQ
+## Thanks
 
-### 1.翻译水平如何？
-我是门外汉，简单的翻译，我参考了myxx的vocaloid6翻译文件，所以能看，但有不足之处。
+[UniTranslator](https://github.com/UlyssesWu/BAML-Translator/releases)
