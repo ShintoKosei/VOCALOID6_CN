@@ -1,6 +1,10 @@
 # VOCALOID6 CN
 
+VOCALOID6汉化包
 zh_CN Translation for VOCALOID 6
+
+![效果图](img/p1.png)
+效果图
 
 ## 编辑器版本号
 
